@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "thumb_img": "https://i.postimg.cc/QCpkhxMh/1.jpg",
+        "author_name": "John Doe",
+        "author_img": "https://i.postimg.cc/SxQ7b4bb/boy1.png",
+        "posted_date": "2024-10-21",
+        "blog_title": "Understanding JSON",
+        "hashtags": [
+            "#JSON",
+            "#Programming",
+            "#WebDevelopment"
+        ],
+        "read_time": 5
+    },
+    {
+        "id": 2,
+        "thumb_img": "https://i.postimg.cc/wxJkhFQZ/2.png",
+        "author_name": "Jane Smith",
+        "author_img": "https://i.postimg.cc/W19m2ysF/boy2.jpg",
+        "posted_date": "2024-10-20",
+        "blog_title": "The Future of Web Design",
+        "hashtags": [
+            "#WebDesign",
+            "#UX",
+            "#Trends"
+        ],
+        "read_time": 8
+    },
+    {
+        "id": 3,
+        "thumb_img": "https://i.postimg.cc/c4SBTYDH/3.png",
+        "author_name": "Alice Johnson",
+        "author_img": "https://i.postimg.cc/tgY37zgr/girl1.jpg",
+        "posted_date": "2024-10-19",
+        "blog_title": "Exploring Machine Learning",
+        "hashtags": [
+            "#MachineLearning",
+            "#AI",
+            "#DataScience"
+        ],
+        "read_time": 10
+    },
+    {
+        "id": 4,
+        "thumb_img": "https://i.postimg.cc/c4BMzHjc/4.jpg",
+        "author_name": "Bob Brown",
+        "author_img": "https://i.postimg.cc/vmkWn6gG/girl2.jpg",
+        "posted_date": "2024-10-18",
+        "blog_title": "Getting Started with Tailwind CSS",
+        "hashtags": ["#TailwindCSS", "#CSS", "#WebDevelopment"],
+        "read_time": 6
+    }
+]
