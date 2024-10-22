@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { GoBookmark } from "react-icons/go";
 
-const Blog = ({ blog, handleAddToBookmark }) => {
+const Blog = ({ blog, handleAddToBookmark, handleReadingTime }) => {
   return (
     <div className="space-y-5 mb-12">
       <img className="rounded-lg" src={blog.thumb_img} alt="" />
@@ -34,9 +34,13 @@ const Blog = ({ blog, handleAddToBookmark }) => {
         ))}
       </p>
 
-      <a className="text-[#6047EC] underline" href="#">
+      <button
+        onClick={() => handleReadingTime(blog.read_time)}
+        className="text-[#6047EC] underline"
+        href="#"
+      >
         Mark as Read
-      </a>
+      </button>
     </div>
   );
 };
@@ -44,5 +48,6 @@ const Blog = ({ blog, handleAddToBookmark }) => {
 Blog.propTypes = {
   blog: PropTypes.object,
   handleAddToBookmark: PropTypes.func,
+  handleReadingTime: PropTypes.func,
 };
 export default Blog;

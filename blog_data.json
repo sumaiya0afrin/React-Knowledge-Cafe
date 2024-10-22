@@ -5,11 +5,9 @@
         "author_name": "John Doe",
         "author_img": "https://i.postimg.cc/SxQ7b4bb/boy1.png",
         "posted_date": "2024-10-21",
-        "blog_title": "Features of ES6",
+        "blog_title": "Exploring the Key Features of ES6 Today",
         "hashtags": [
-            "#JSON",
-            "#Programming",
-            "#WebDevelopment"
+            "#ES6", "#JavaScript", "#Programming"
         ],
         "read_time": 5
     },
@@ -30,25 +28,36 @@
     {
         "id": 3,
         "thumb_img": "https://i.postimg.cc/c4SBTYDH/3.png",
-        "author_name": "Alice Johnson",
-        "author_img": "https://i.postimg.cc/tgY37zgr/girl1.jpg",
-        "posted_date": "2024-10-19",
-        "blog_title": "Exploring Machine Learning",
-        "hashtags": [
-            "#MachineLearning",
-            "#AI",
-            "#DataScience"
-        ],
-        "read_time": 10
+        "author_name": "Charlotte Green",
+        "author_img": "https://i.postimg.cc/JzpCb4mN/girl3.jpg",
+        "posted_date": "2024-10-17",
+        "blog_title": "Mastering React: Essential Tips for Beginners",
+        "hashtags": ["#React", "#JavaScript", "#Frontend"],
+        "read_time": "7 min"
     },
+    
     {
         "id": 4,
         "thumb_img": "https://i.postimg.cc/c4BMzHjc/4.jpg",
         "author_name": "Bob Brown",
         "author_img": "https://i.postimg.cc/vmkWn6gG/girl2.jpg",
         "posted_date": "2024-10-18",
-        "blog_title": "Getting Started with Tailwind CSS",
-        "hashtags": ["#TailwindCSS", "#CSS", "#WebDevelopment"],
+        "blog_title": "Top Free Resources for Learning Web Development",
+        "hashtags": ["#WebDevelopment", "#Resources", "#Learning"],
         "read_time": 6
+    },
+    {
+        "id": 5,
+        "thumb_img": "https://i.postimg.cc/sX2Bw8dq/5.jpg",
+        "author_name": "Alice Johnson",
+        "author_img": "https://i.postimg.cc/tgY37zgr/girl1.jpg",
+        "posted_date": "2024-10-19",
+        "blog_title": "Exploring Machine Learning Concepts for Beginners",
+        "hashtags": [
+            "#MachineLearning",
+            "#AI",
+            "#DataScience"
+        ],
+        "read_time": 10
     }
 ]
