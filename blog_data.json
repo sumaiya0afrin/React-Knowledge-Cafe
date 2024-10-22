@@ -28,12 +28,12 @@
     {
         "id": 3,
         "thumb_img": "https://i.postimg.cc/c4SBTYDH/3.png",
-        "author_name": "Charlotte Green",
+        "author_name": "Charlotte",
         "author_img": "https://i.postimg.cc/JzpCb4mN/girl3.jpg",
         "posted_date": "2024-10-17",
         "blog_title": "Mastering React: Essential Tips for Beginners",
         "hashtags": ["#React", "#JavaScript", "#Frontend"],
-        "read_time": "7 min"
+        "read_time": 7
     },
     
     {

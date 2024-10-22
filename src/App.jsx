@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className="grid grid-cols-3 w-4/5 mx-auto gap-6 mt-6">
+      <div className="lg:grid lg:grid-cols-3 w-4/5 mx-auto gap-6 my-6">
         <Blogs
           handleAddToBookmark={handleAddToBookmark}
           handleReadingTime={handleReadingTime}
