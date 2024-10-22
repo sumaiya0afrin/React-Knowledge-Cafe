@@ -35,7 +35,7 @@ const Blog = ({ blog, handleAddToBookmark, handleReadingTime }) => {
       </p>
 
       <button
-        onClick={() => handleReadingTime(blog.read_time)}
+        onClick={() => handleReadingTime(blog.read_time, blog.id)}
         className="text-[#6047EC] underline"
         href="#"
       >

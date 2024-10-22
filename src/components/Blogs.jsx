@@ -13,7 +13,6 @@ const Blogs = ({ handleAddToBookmark, handleReadingTime }) => {
   }, []);
   return (
     <div className="col-span-2">
-      <h2>Blog</h2>
       {blogs.map((blog) => (
         <Blog
           key={blog.id}

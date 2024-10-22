@@ -13,13 +13,18 @@ function App() {
     setBookmarks(newBook);
   };
 
-  const handleReadingTime = (time) => {
+  const handleReadingTime = (time, id) => {
     setReadingTime(readingTime + time);
+    console.log(id);
+    const remainingBookMark = bookmarks.filter(
+      (bookmark) => bookmark.id !== id
+    );
+    setBookmarks(remainingBookMark);
   };
   return (
     <>
       <Header></Header>
-      <div className="grid grid-cols-3 w-4/5 mx-auto gap-6">
+      <div className="grid grid-cols-3 w-4/5 mx-auto gap-6 mt-6">
         <Blogs
           handleAddToBookmark={handleAddToBookmark}
           handleReadingTime={handleReadingTime}
